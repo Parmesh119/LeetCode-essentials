@@ -6,8 +6,9 @@ class Solution {
             if(str.charAt(s)==str.charAt(e)){
                 s++;
                 e--;
-            }else
+            }else{
                 return false;
+            }
         }
         return true;
     }

@@ -10,9 +10,6 @@ class Solution {
         for (int i = 0; i < nums2.length; i++) 
             arr[ignoredNums1.length + i] = nums2[i];
         Arrays.sort(arr);
-        int index=0;
-        int index1=0;
-        int index2=0;
         if(arr.length%2!=0)
             return arr[arr.length / 2];
         else{

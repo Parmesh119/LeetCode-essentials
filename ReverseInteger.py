@@ -9,9 +9,9 @@ class Solution(object):
         else:
             ans = int(str(x * -1)[::-1]) * -1
         
-        mi = 2 ** 31 * (-1)
-        ma = 2 ** 31 - 1
+        m1 = 2 ** 31 * (-1)
+        m2 = 2 ** 31 - 1
         
-        if ans > ma or ans < mi:
+        if ans > m2 or ans < m1:
             return 0
         return ans
