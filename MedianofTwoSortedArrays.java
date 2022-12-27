@@ -3,7 +3,6 @@ import java.util.Arrays;
 class Solution {
     public double findMedianSortedArrays(int[] ignoredNums1, int[] nums2) {
         int[] arr = new int[nums2.length + ignoredNums1.length];
-        int s = 0, e = arr.length - 1;
         for (int i = 0; i < arr.length; i++) 
             if (i < ignoredNums1.length) 
                 arr[i] = ignoredNums1[i];
