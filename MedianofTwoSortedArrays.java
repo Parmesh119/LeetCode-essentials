@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class MedianofTwoSortedArray {
     public double findMedianSortedArrays(int[] ignoredNums1, int[] nums2) {
         int[] arr = new int[nums2.length + ignoredNums1.length];
         for (int i = 0; i < arr.length; i++) 
